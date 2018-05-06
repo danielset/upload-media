@@ -65,7 +65,7 @@ $total_url = $base_url . '?muesli_color=' . $muesli_color . '&muesli_opacity=' .
 Code just as fallback. If button fails <a href="https://try-puppeteer.appspot.com" target="_blank">go here</a> and paste code. 
 </p>
 
-		  <a href="<?php echo($rendering_url . urlencode($total_url)); ?>" class="btn btn-primary">Dosenrendering generieren</a>
+		  <a href="<?php echo($rendering_url . urlencode($total_url)); ?>" class="btn btn-primary" target="_blank">Dosenrendering generieren</a>
 		  
 	  </div></div>
 </div>
