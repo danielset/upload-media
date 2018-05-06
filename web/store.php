@@ -21,7 +21,7 @@ $muesli_color = $muesli_r . ',' . $muesli_g . ',' . $muesli_b;
 
 $muesli_opacity = $_POST['muesli_opacity'];
 
-$rendering_url = 'https://helix-cellar.glitch.me/?query=';
+$rendering_url = 'https://3d-dose.glitch.me/?query=';
 $base_url = 'http://technicalmarketing.guide/3d/big.php';
 
 $code_start = "const browser = await puppeteer.launch();
