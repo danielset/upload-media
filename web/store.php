@@ -53,7 +53,7 @@ if ($show_logo == 'on') {
 
 $total_code = $code_start . $base_url . '?muesli_color=' . $muesli_color . '&muesli_opacity=' . $muesli_opacity . '&my_color=' . $my_color . '&my_opacity=' . $my_opacity . '$title=' . $title_text . '&design_url=' . $design_url . $code_end;
 
-$total_url = $base_url . '?muesli_color=' . $muesli_color . '&muesli_opacity=' . $muesli_opacity . '&my_color=' . $my_color . '&my_opacity=' . $my_opacity . $show_logo_param . '&title=' . $title_text . '&design_url=' . $design_url;
+$total_url = $base_url . '?muesli_color=' . $muesli_color . '&muesli_opacity=' . $muesli_opacity . '&my_color=' . $my_color . '&my_opacity=' . $my_opacity . $show_logo_param . '&title=' . $title_text . '&title_color=' . $title_color . '&title_opacity=' . $title_opacity . '&design_url=' . $design_url;
 
 
 ?>
