@@ -22,9 +22,6 @@ label {
 	font-size: 12px;
 }
 
-input { 
-    text-transform: uppercase;
-}
 
 </style>
 
