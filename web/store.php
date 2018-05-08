@@ -21,6 +21,17 @@ $muesli_color = $muesli_r . ',' . $muesli_g . ',' . $muesli_b;
 
 $muesli_opacity = $_POST['muesli_opacity'];
 
+
+$title_r = $_POST['title_r'];
+$title_g = $_POST['title_g'];
+$title_b = $_POST['title_b'];
+
+$title_color = $title_r . ',' . $title_g . ',' . $title_b;
+
+$title_opacity = $_POST['title_opacity'];
+$title_text = $_POST['title_text'];
+
+
 $rendering_url = 'https://3d-dose.glitch.me/?query=';
 $base_url = 'http://technicalmarketing.guide/3d/big.php';
 
@@ -40,9 +51,9 @@ if ($show_logo == 'on') {
 	$show_logo_param = '&logo=false';
 }
 
-$total_code = $code_start . $base_url . '?muesli_color=' . $muesli_color . '&muesli_opacity=' . $muesli_opacity . '&my_color=' . $my_color . '&my_opacity=' . $my_opacity . '&design_url=' . $design_url . $code_end;
+$total_code = $code_start . $base_url . '?muesli_color=' . $muesli_color . '&muesli_opacity=' . $muesli_opacity . '&my_color=' . $my_color . '&my_opacity=' . $my_opacity . '$title=' . $title_text . '&design_url=' . $design_url . $code_end;
 
-$total_url = $base_url . '?muesli_color=' . $muesli_color . '&muesli_opacity=' . $muesli_opacity . '&my_color=' . $my_color . '&my_opacity=' . $my_opacity . $show_logo_param . '&design_url=' . $design_url;
+$total_url = $base_url . '?muesli_color=' . $muesli_color . '&muesli_opacity=' . $muesli_opacity . '&my_color=' . $my_color . '&my_opacity=' . $my_opacity . $show_logo_param . '&title=' . $title_text . '&design_url=' . $design_url;
 
 
 ?>
@@ -60,10 +71,10 @@ $total_url = $base_url . '?muesli_color=' . $muesli_color . '&muesli_opacity=' .
 	  <div class="col-sm-6" style="margin: 0 auto;">
 
 
-<textarea style="margin-top: 50px" class="form-control" rows="11"><?php echo $total_code; ?></textarea>
+<!--textarea style="margin-top: 50px" class="form-control" rows="11"><?php echo $total_code; ?></textarea
 <p style="margin-top: 20px">
 Code just as fallback. If button fails <a href="https://try-puppeteer.appspot.com" target="_blank">go here</a> and paste code. 
-</p>
+</p>-->
 
 		  <a href="<?php echo($rendering_url . urlencode($total_url)); ?>" class="btn btn-primary" target="_blank">Dosenrendering generieren</a>
 		  

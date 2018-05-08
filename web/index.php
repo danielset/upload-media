@@ -77,6 +77,31 @@ label {
     <label class="form-check-label" for="exampleCheck1">mymuesli Logo zeigen</label>
 	  </div>
     </div>
+    
+    
+    <div class="form-row">
+    <div class="form-group col-md-3">
+      <label for="title_r">"subtitle" (R)GB Color</label>
+      <input type="text" class="form-control" value="255" id="title_r" name="title_r">
+    </div>
+    <div class="form-group col-md-3">
+      <label for="title_g">"subtitle" R(G)B Color</label>
+      <input type="text" class="form-control" value="255" id="title_g" name="title_g">
+    </div>
+    <div class="form-group col-md-3">
+      <label for="title_b">"subtitle" RG(B) Color</label>
+      <input type="text" class="form-control" value="255" id="title_b" name="title_b">
+    </div>
+    <div class="form-group col-md-3">
+      <label for="title_opacity">"subtitle" Opacity</label>
+      <input type="text" class="form-control" value="1" id="title_opacity" name="title_opacity">
+    </div>
+  </div>
+  
+  <div class="form-row">
+	  <label for="title_text">"subtitle" Text</label>
+      <input type="text" class="form-control" value="LIEBLINGSMUESLI" id="title_text" name="title_text">
+  </div>
 	
 	
 	<button class="btn btn-primary" style="margin-top: 20px;" type="submit" value="save">Save</button>
