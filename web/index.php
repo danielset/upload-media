@@ -15,7 +15,7 @@
 <style type="text/css" media="screen">
 
 .container {
-	margin:50px;
+	margin:50px auto;
 }
 
 label {
