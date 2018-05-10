@@ -78,6 +78,8 @@ Code just as fallback. If button fails <a href="https://try-puppeteer.appspot.co
 
 		  <a href="<?php echo($rendering_url . urlencode($total_url)); ?>" class="btn btn-primary" target="_blank">Dosenrendering generieren</a>
 		  
+<img src="<?php echo($rendering_url . urlencode($total_url)); ?>">
+
 	  </div></div>
 </div>
 
