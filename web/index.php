@@ -33,7 +33,7 @@ label {
 	  <div style="margin: 0 auto;">
     <form class="form" action="/store.php" method="post">
 	<div style="margin-bottom: 20px;">
-		<input type="hidden" role="uploadcare-uploader" name="content" data-crop="1573x1420 upscale" data-image-shrink="1573x1420" data-images-only="true" />
+		<input type="hidden" role="uploadcare-uploader" name="content" data-crop="1567x1415 upscale" data-image-shrink="1567x1415" data-images-only="true" />
 	</div>
 	
 	<div class="form-row">
