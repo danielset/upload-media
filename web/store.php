@@ -32,7 +32,7 @@ $title_opacity = $_POST['title_opacity'];
 $title_text = $_POST['title_text'];
 
 
-$rendering_url = 'https://3d-dose.glitch.me/?query=';
+$rendering_url = 'https://potent-motion.glitch.me/?query=';
 $base_url = 'http://technicalmarketing.guide/3d/big.php';
 
 $code_start = "const browser = await puppeteer.launch();
